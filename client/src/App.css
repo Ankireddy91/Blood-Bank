@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  background-color: #ffffff; /* White background for the main area */
+}
+
+.App-header {
+  background-color: #ff4d4d; /* Red theme for blood donation */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; /* White text color for contrast */
+}
+
+.App-link {
+  color: #ffffff; /* White for links as well */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Removed animation styles as there are no images to animate */

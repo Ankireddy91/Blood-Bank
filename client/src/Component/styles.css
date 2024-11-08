@@ -1,0 +1,244 @@
+/* Container styling */
+.container {
+  margin: 20px;
+  font-family: 'Arial', sans-serif;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Title styling */
+.title {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Table styling */
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Header styling with gradient and rounded corners */
+.table thead th {
+  background: linear-gradient(135deg, #4a90e2, #2c3e50);
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+}
+
+/* Body styling with alternating row colors and hover effect */
+.table tbody tr {
+  transition: background 0.3s ease;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.table tbody tr:hover {
+  background-color: #e9f5ff;
+}
+
+/* Cell styling */
+.table th,
+.table td {
+  padding: 12px 15px;
+  border: none;
+  color: #2c3e50;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* Row number styling for emphasis */
+.table th[scope="row"] {
+  font-weight: bold;
+  color: #4a90e2;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .table th, .table td {
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+}
+/* Row styling for overall card layout */
+.row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 30px 0;
+  margin: 30px auto;
+  max-width: 90%;
+}
+
+/* Card container */
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Card image styling */
+.card-img-top {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Card title styling */
+.card-title {
+  color: #4a90e2;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Card text styling */
+.card-text {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-img-top {
+    height: 150px;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+/* Container styling for form layout */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Card styling */
+.card {
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Form title styling */
+.card h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Form label styling */
+.form-label {
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+/* Input field styling */
+.form-control {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+.form-control:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.3);
+}
+
+/* Button styling */
+.btn-primary {
+  padding: 10px 20px;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #3a78c5;
+}
+
+.btn-primary + .btn-primary {
+  margin-left: 10px;
+}
+
+/* Message styling */
+.card p {
+  color: #ff6b6b;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .card {
+    max-width: 90%;
+    padding: 20px;
+  }
+
+  .card h2 {
+    font-size: 20px;
+  }
+}
