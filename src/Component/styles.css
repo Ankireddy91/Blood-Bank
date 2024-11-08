@@ -1,8 +1,0 @@
-/* styles.css */
-.footer-fixed-height {
-  height: 340px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
